@@ -197,8 +197,10 @@ class ContextualEngineProvider {
       vibe = 'pure love and wonder';
       recommendedTemplate = 'Warm';
     }
+    const potentialKeywords = ['grandchild', 'child', 'kid', 'girl', 'boy', 'baby', 'cake', 'birthday', 'morning', 'coffee', 'flower', 'beach', 'sunset', 'anniversary', 'park'];
+    const detectedSubjects = potentialKeywords.filter(k => desc.includes(k));
 
-    return { scene, vibe, recommendedTemplate };
+    return { scene, vibe, recommendedTemplate, detectedSubjects };
   }
 
   async generateMessages({ photoInfo = {}, intention = '', recipient = 'Someone Special', mood = 'Loving' }) {
@@ -317,7 +319,7 @@ class ContextualEngineProvider {
         return prefix + currentMessage;
 
       case 'funnier':
-        return currentMessage.replace(/❤️|🌸|💕/g, '😄') + " (Couldn't stop smiling thinking about you! 😂)";
+        return currentMessage.replace(/❤️|🌸|💕/g, '😄') + " (And remember, you're always my favorite! 😉)";
 
       case 'different':
         // Return a fresh take
