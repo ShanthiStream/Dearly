@@ -1,0 +1,20 @@
+{
+  "name": "dearly",
+  "version": "1.0.0",
+  "description": "DEARLY - Make something special for someone you love.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "greeting-cards",
+    "photo-messages",
+    "dearly",
+    "family",
+    "accessible",
+    "consumer-app"
+  ],
+  "author": "DEARLY Team",
+  "license": "MIT"
+}

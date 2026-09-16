@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="cakeGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#3A2826"/>
+      <stop offset="60%" stop-color="#1A1211"/>
+      <stop offset="100%" stop-color="#0E0909"/>
+    </radialGradient>
+    <radialGradient id="candleFlame" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="25%" stop-color="#FFF275"/>
+      <stop offset="70%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#FF3C38" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="frosting" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5EA"/>
+      <stop offset="100%" stop-color="#F4DEC9"/>
+    </linearGradient>
+    <linearGradient id="cakeBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C2845B"/>
+      <stop offset="100%" stop-color="#8F5430"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Cozy Dining Background -->
+  <rect width="1080" height="1080" fill="url(#cakeGlow)"/>
+
+  <!-- Warm Table Top -->
+  <ellipse cx="540" cy="880" rx="460" ry="160" fill="#2E1C14"/>
+  <ellipse cx="540" cy="850" rx="420" ry="140" fill="#3D271D"/>
+
+  <!-- Rustic Ceramic Stand -->
+  <ellipse cx="540" cy="810" rx="280" ry="60" fill="#EAE2D6"/>
+  <path d="M510 810 L500 870 L580 870 L570 810 Z" fill="#D6CDC0"/>
+
+  <!-- Birthday Cake -->
+  <g transform="translate(300, 520)">
+    <!-- Sponge -->
+    <rect x="0" y="80" width="480" height="180" rx="20" fill="url(#cakeBase)"/>
+    <ellipse cx="240" cy="80" rx="240" ry="50" fill="url(#frosting)"/>
+    <!-- Dripping Cream Frosting -->
+    <path d="M0 80 Q 40 140 80 85 Q 120 160 160 90 Q 200 130 240 85 Q 280 150 320 85 Q 360 140 400 90 Q 440 130 480 80 L 480 120 Q 440 160 400 120 Q 360 170 320 115 Q 280 180 240 115 Q 200 160 160 120 Q 120 180 80 115 Q 40 160 0 110 Z" fill="url(#frosting)"/>
+
+    <!-- Fresh Strawberries / Berries on Top -->
+    <circle cx="150" cy="70" r="22" fill="#D62246"/>
+    <circle cx="210" cy="60" r="24" fill="#D62246"/>
+    <circle cx="270" cy="65" r="23" fill="#D62246"/>
+    <circle cx="330" cy="72" r="20" fill="#D62246"/>
+    <circle cx="240" cy="90" r="18" fill="#3A1738"/>
+    <circle cx="180" cy="85" r="16" fill="#3A1738"/>
+    <circle cx="300" cy="88" r="16" fill="#3A1738"/>
+
+    <!-- Candles -->
+    <!-- Candle 1 -->
+    <rect x="190" y="-30" width="12" height="80" rx="4" fill="#FFE5D9"/>
+    <line x1="196" y1="-30" x2="196" y2="-45" stroke="#4A3B32" stroke-width="2"/>
+    <circle cx="196" cy="-60" r="60" fill="url(#candleFlame)" opacity="0.6"/>
+    <ellipse cx="196" cy="-55" rx="8" ry="18" fill="#FFF275"/>
+    <ellipse cx="196" cy="-52" rx="4" ry="10" fill="#FFF"/>
+
+    <!-- Candle 2 (Center) -->
+    <rect x="234" y="-50" width="12" height="100" rx="4" fill="#FFE5D9"/>
+    <line x1="240" y1="-50" x2="240" y2="-65" stroke="#4A3B32" stroke-width="2"/>
+    <circle cx="240" cy="-80" r="85" fill="url(#candleFlame)" opacity="0.8"/>
+    <ellipse cx="240" cy="-75" rx="10" ry="22" fill="#FFF275"/>
+    <ellipse cx="240" cy="-72" rx="5" ry="12" fill="#FFF"/>
+
+    <!-- Candle 3 -->
+    <rect x="278" y="-30" width="12" height="80" rx="4" fill="#FFE5D9"/>
+    <line x1="284" y1="-30" x2="284" y2="-45" stroke="#4A3B32" stroke-width="2"/>
+    <circle cx="284" cy="-60" r="60" fill="url(#candleFlame)" opacity="0.6"/>
+    <ellipse cx="284" cy="-55" rx="8" ry="18" fill="#FFF275"/>
+    <ellipse cx="284" cy="-52" rx="4" ry="10" fill="#FFF"/>
+  </g>
+
+  <!-- Soft Ambient Bokeh Lights in Background -->
+  <circle cx="180" cy="220" r="45" fill="#FFC857" opacity="0.18"/>
+  <circle cx="860" cy="260" r="65" fill="#FFC857" opacity="0.15"/>
+  <circle cx="340" cy="180" r="30" fill="#FFAAA6" opacity="0.2"/>
+  <circle cx="720" cy="150" r="40" fill="#FFAAA6" opacity="0.18"/>
+  <circle cx="920" cy="420" r="35" fill="#FFD166" opacity="0.12"/>
+</svg>

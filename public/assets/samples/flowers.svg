@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <radialGradient id="gardenBg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#EBF4EB"/>
+      <stop offset="60%" stop-color="#D4E7D4"/>
+      <stop offset="100%" stop-color="#A5C4A5"/>
+    </radialGradient>
+    <linearGradient id="rosePetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFAAA6"/>
+      <stop offset="50%" stop-color="#FF8B94"/>
+      <stop offset="100%" stop-color="#D1506D"/>
+    </linearGradient>
+    <linearGradient id="peachPetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0DF"/>
+      <stop offset="100%" stop-color="#FFBD9B"/>
+    </linearGradient>
+    <linearGradient id="ceramicVase" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8E0D5"/>
+      <stop offset="50%" stop-color="#FAF7F2"/>
+      <stop offset="100%" stop-color="#D9CEBF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Soft Serene Garden Background -->
+  <rect width="1080" height="1080" fill="url(#gardenBg)"/>
+
+  <!-- Soft Sunlight Texture -->
+  <circle cx="850" cy="200" r="300" fill="#FFFDF0" opacity="0.45"/>
+
+  <!-- Linen Table Surface -->
+  <rect x="0" y="760" width="1080" height="320" fill="#F4EDE4"/>
+  <line x1="0" y1="760" x2="1080" y2="760" stroke="#DDD2C4" stroke-width="4"/>
+
+  <!-- Ceramic Ribbed Pitcher / Vase -->
+  <g transform="translate(420, 580)">
+    <!-- Cast Shadow -->
+    <ellipse cx="120" cy="300" rx="140" ry="30" fill="#75675A" opacity="0.25"/>
+    <!-- Vase Body -->
+    <path d="M70 40 C 40 120, 20 200, 30 280 C 40 310, 200 310, 210 280 C 220 200, 200 120, 170 40 Z" fill="url(#ceramicVase)"/>
+    <ellipse cx="120" cy="40" rx="50" ry="16" fill="#DDD0C2"/>
+    <!-- Fluted Vertical Lines -->
+    <path d="M90 60 C 70 140, 60 200, 70 280" stroke="#FFF" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M120 56 C 115 140, 115 200, 120 290" stroke="#FFF" stroke-width="4" fill="none" opacity="0.6"/>
+    <path d="M150 60 C 170 140, 180 200, 170 280" stroke="#D1C4B2" stroke-width="4" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Lush Floral Bouquet -->
+  <!-- Eucalyptus & Greenery Leaves -->
+  <g fill="#6B8E6B" opacity="0.9">
+    <ellipse cx="400" cy="500" rx="20" ry="40" transform="rotate(-35 400 500)"/>
+    <ellipse cx="360" cy="440" rx="18" ry="36" transform="rotate(-55 360 440)"/>
+    <ellipse cx="680" cy="510" rx="22" ry="42" transform="rotate(40 680 510)"/>
+    <ellipse cx="730" cy="450" rx="18" ry="38" transform="rotate(60 730 450)"/>
+    <ellipse cx="540" cy="320" rx="18" ry="44"/>
+  </g>
+
+  <!-- Big Peony (Center Left) -->
+  <g transform="translate(420, 400)">
+    <circle cx="50" cy="50" r="60" fill="url(#rosePetal)"/>
+    <circle cx="50" cy="50" r="45" fill="#FF8B94"/>
+    <circle cx="50" cy="50" r="30" fill="#FF6B7A"/>
+    <circle cx="50" cy="50" r="15" fill="#FFD166"/>
+  </g>
+
+  <!-- Big Peach Rose (Center Right) -->
+  <g transform="translate(560, 430)">
+    <circle cx="50" cy="50" r="65" fill="url(#peachPetal)"/>
+    <circle cx="50" cy="50" r="48" fill="#FFAF87"/>
+    <circle cx="50" cy="50" r="32" fill="#E28766"/>
+    <circle cx="50" cy="50" r="16" fill="#FFE066"/>
+  </g>
+
+  <!-- Top Lavender & Daisies -->
+  <circle cx="520" cy="360" r="38" fill="#FFF" stroke="#EAE0D5" stroke-width="4"/>
+  <circle cx="520" cy="360" r="14" fill="#FFD166"/>
+
+  <circle cx="620" cy="340" r="28" fill="#CBB2FE"/>
+  <circle cx="450" cy="340" r="26" fill="#CBB2FE"/>
+
+  <!-- Fallen petals on table -->
+  <ellipse cx="340" cy="800" rx="18" ry="8" fill="#FF8B94" transform="rotate(-15 340 800)"/>
+  <ellipse cx="720" cy="815" rx="15" ry="7" fill="#FFBD9B" transform="rotate(25 720 815)"/>
+</svg>

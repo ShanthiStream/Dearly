@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="morningLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="40%" stop-color="#FCEBD2"/>
+      <stop offset="100%" stop-color="#D9A066"/>
+    </linearGradient>
+    <linearGradient id="ceramicCup" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ECE4D8"/>
+      <stop offset="50%" stop-color="#FAF6F0"/>
+      <stop offset="100%" stop-color="#DDD2C1"/>
+    </linearGradient>
+    <linearGradient id="woodTable" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B88655"/>
+      <stop offset="100%" stop-color="#704423"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Warm Window Light -->
+  <rect width="1080" height="1080" fill="url(#morningLight)"/>
+
+  <!-- Morning Window Blinds Shadow -->
+  <g opacity="0.12" fill="#5C3B1E">
+    <rect x="-100" y="80" width="1400" height="40" transform="rotate(-18 540 540)"/>
+    <rect x="-100" y="200" width="1400" height="40" transform="rotate(-18 540 540)"/>
+    <rect x="-100" y="320" width="1400" height="40" transform="rotate(-18 540 540)"/>
+    <rect x="-100" y="440" width="1400" height="40" transform="rotate(-18 540 540)"/>
+  </g>
+
+  <!-- Rustic Wooden Table Top -->
+  <path d="M0 640 L1080 640 L1080 1080 L0 1080 Z" fill="url(#woodTable)"/>
+  <!-- Wood grain plank lines -->
+  <line x1="0" y1="780" x2="1080" y2="780" stroke="#5C3619" stroke-width="3" opacity="0.4"/>
+  <line x1="0" y1="920" x2="1080" y2="920" stroke="#5C3619" stroke-width="3" opacity="0.4"/>
+
+  <!-- Soft Linen Napkin -->
+  <polygon points="260,680 580,630 640,940 300,980" fill="#FAF5ED" opacity="0.9"/>
+
+  <!-- Cup Saucer -->
+  <ellipse cx="540" cy="820" rx="220" ry="70" fill="#DDD0BF"/>
+  <ellipse cx="540" cy="815" rx="190" ry="55" fill="#FAF6F0"/>
+
+  <!-- Coffee Mug -->
+  <g transform="translate(420, 600)">
+    <!-- Shadow -->
+    <ellipse cx="120" cy="200" rx="110" ry="25" fill="#422513" opacity="0.4"/>
+    <!-- Body -->
+    <rect x="20" y="40" width="200" height="160" rx="30" fill="url(#ceramicCup)"/>
+    <ellipse cx="120" cy="40" rx="100" ry="32" fill="#E8DCCB"/>
+    <!-- Rich Coffee Interior -->
+    <ellipse cx="120" cy="45" rx="88" ry="26" fill="#381D11"/>
+    <!-- Latte Foam Heart Art -->
+    <ellipse cx="120" cy="45" rx="55" ry="18" fill="#F4DEC3"/>
+    <path d="M120 40 C 105 32, 90 40, 105 52 L 120 60 L 135 52 C 150 40, 135 32, 120 40 Z" fill="#FFF8F0"/>
+    <!-- Handle -->
+    <path d="M220 70 C 270 70, 270 150, 220 150" stroke="url(#ceramicCup)" stroke-width="26" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wisps of Rising Steam -->
+  <path d="M510 570 Q 490 510 530 450 T 500 360" stroke="#FFF" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.35"/>
+  <path d="M560 560 Q 590 490 550 420 T 570 320" stroke="#FFF" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Open Book / Journal Beside Cup -->
+  <polygon points="680,720 980,680 1020,900 710,950" fill="#FDFBF7"/>
+  <line x1="840" y1="700" x2="865" y2="925" stroke="#D1C4B2" stroke-width="3"/>
+  <line x1="720" y1="760" x2="810" y2="745" stroke="#C4B5A2" stroke-width="2"/>
+  <line x1="720" y1="790" x2="815" y2="775" stroke="#C4B5A2" stroke-width="2"/>
+  <line x1="720" y1="820" x2="795" y2="805" stroke="#C4B5A2" stroke-width="2"/>
+  <line x1="885" y1="735" x2="980" y2="720" stroke="#C4B5A2" stroke-width="2"/>
+  <line x1="890" y1="765" x2="985" y2="750" stroke="#C4B5A2" stroke-width="2"/>
+
+  <!-- Sun Rays Flare -->
+  <polygon points="0,0 360,0 800,1080 0,1080" fill="#FFF" opacity="0.08"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7BB4E3"/>
+      <stop offset="45%" stop-color="#C2E0F9"/>
+      <stop offset="70%" stop-color="#FCEFD5"/>
+      <stop offset="100%" stop-color="#F7C898"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF8DE" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#FFDE82" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#FFB347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hills" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8DB872"/>
+      <stop offset="100%" stop-color="#4F7E39"/>
+    </linearGradient>
+    <linearGradient id="meadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9BC874"/>
+      <stop offset="100%" stop-color="#55863B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1080" height="1080" fill="url(#sky)"/>
+
+  <!-- Golden Sun Glow -->
+  <circle cx="750" cy="400" r="380" fill="url(#sun)"/>
+
+  <!-- Rolling Hills -->
+  <path d="M0 640 Q 280 540 600 620 T 1080 580 L 1080 1080 L 0 1080 Z" fill="url(#hills)" opacity="0.8"/>
+  <path d="M0 720 Q 380 620 780 700 T 1080 680 L 1080 1080 L 0 1080 Z" fill="url(#meadow)"/>
+
+  <!-- Running Child Silhouette in Warm Sunlight -->
+  <g transform="translate(480, 580)">
+    <!-- Sun rim light aura -->
+    <circle cx="60" cy="50" r="140" fill="#FFF2B8" opacity="0.35"/>
+    <!-- Head -->
+    <circle cx="60" cy="40" r="32" fill="#2D2118"/>
+    <!-- Joyful hair -->
+    <path d="M35 32 Q 55 10 75 25 Q 92 18 90 42 Q 60 25 35 32 Z" fill="#42291A"/>
+    <!-- Body in yellow shirt -->
+    <path d="M40 70 Q 60 65 80 70 L 90 145 L 30 145 Z" fill="#ECA43B"/>
+    <!-- Arms swinging with joyful run -->
+    <path d="M40 85 Q 0 95 10 130" stroke="#ECA43B" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <path d="M80 85 Q 120 70 140 100" stroke="#ECA43B" stroke-width="18" stroke-linecap="round" fill="none"/>
+    <!-- Shorts -->
+    <path d="M30 140 L 90 140 L 95 185 L 63 185 L 60 160 L 57 185 L 25 185 Z" fill="#3D5A80"/>
+    <!-- Running legs -->
+    <path d="M40 185 L 20 255 L 45 260" stroke="#E5B292" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M78 185 L 115 235 L 140 230" stroke="#E5B292" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Sneakers -->
+    <ellipse cx="48" cy="265" rx="16" ry="10" fill="#E63946"/>
+    <ellipse cx="145" cy="235" rx="16" ry="10" fill="#E63946"/>
+  </g>
+
+  <!-- Wildflowers in foreground -->
+  <circle cx="120" cy="880" r="8" fill="#FFF"/>
+  <circle cx="120" cy="880" r="4" fill="#FFD166"/>
+  <circle cx="240" cy="940" r="10" fill="#FFB4D6"/>
+  <circle cx="860" cy="860" r="9" fill="#FFF"/>
+  <circle cx="940" cy="920" r="12" fill="#FFB4D6"/>
+  <circle cx="420" cy="980" r="8" fill="#FFF"/>
+
+  <!-- Warm Sunflare Overlay -->
+  <circle cx="820" cy="350" r="18" fill="#FFF" opacity="0.8"/>
+  <circle cx="700" cy="460" r="45" fill="#FFE29A" opacity="0.4"/>
+  <circle cx="560" cy="580" r="70" fill="#FFAF70" opacity="0.2"/>
+</svg>

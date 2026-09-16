@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="sunsetSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3A1C71"/>
+      <stop offset="25%" stop-color="#D76D77"/>
+      <stop offset="65%" stop-color="#FFAF7B"/>
+      <stop offset="85%" stop-color="#FFF1C5"/>
+      <stop offset="100%" stop-color="#FFD269"/>
+    </linearGradient>
+    <linearGradient id="oceanWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E58D76"/>
+      <stop offset="35%" stop-color="#9C526A"/>
+      <stop offset="100%" stop-color="#3F2B48"/>
+    </linearGradient>
+    <linearGradient id="wetSand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B87B64"/>
+      <stop offset="100%" stop-color="#42252B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dramatic Sunset Sky -->
+  <rect width="1080" height="1080" fill="url(#sunsetSky)"/>
+
+  <!-- Golden Sun on Horizon -->
+  <circle cx="540" cy="580" r="110" fill="#FFFBE6"/>
+  <circle cx="540" cy="580" r="180" fill="#FFE59E" opacity="0.4"/>
+
+  <!-- Calm Ocean Horizon -->
+  <rect x="0" y="580" width="1080" height="220" fill="url(#oceanWater)"/>
+
+  <!-- Sun Reflection on Ocean -->
+  <polygon points="500,580 580,580 680,800 400,800" fill="#FFEAA7" opacity="0.45"/>
+  <ellipse cx="540" cy="620" rx="90" ry="6" fill="#FFF" opacity="0.6"/>
+  <ellipse cx="540" cy="670" rx="140" ry="8" fill="#FFF" opacity="0.5"/>
+  <ellipse cx="540" cy="740" rx="200" ry="10" fill="#FFF" opacity="0.4"/>
+
+  <!-- Wet Beach Sand Shoreline -->
+  <path d="M0 760 Q 400 740 700 780 T 1080 770 L 1080 1080 L 0 1080 Z" fill="url(#wetSand)"/>
+  <!-- Gentle Foamy Wave Crest -->
+  <path d="M0 760 Q 400 740 700 780 T 1080 770" stroke="#FFF" stroke-width="8" fill="none" opacity="0.75"/>
+
+  <!-- Couple Walking Hand in Hand (Romantic Silhouette) -->
+  <g transform="translate(430, 520)" fill="#1A0D18">
+    <!-- Partner 1 (Taller) -->
+    <circle cx="65" cy="50" r="22"/>
+    <path d="M45 74 Q 65 70 85 74 L 88 175 L 42 175 Z"/>
+    <path d="M45 175 L 48 275 L 64 275 L 60 175" stroke="#1A0D18" stroke-width="14" stroke-linecap="round"/>
+    <path d="M85 175 L 95 270 L 110 270 L 85 175" stroke="#1A0D18" stroke-width="14" stroke-linecap="round"/>
+    <!-- Arm reaching to hold hand -->
+    <path d="M85 95 Q 110 135 125 150" stroke="#1A0D18" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Partner 2 (Gentle dress/breeze) -->
+    <circle cx="155" cy="62" r="20"/>
+    <!-- Hair blowing in sea breeze -->
+    <path d="M155 50 Q 185 55 195 85 Q 175 75 155 75 Z"/>
+    <!-- Flowing Sundress -->
+    <path d="M140 85 Q 155 80 170 85 L 205 220 Q 155 230 115 220 Z"/>
+    <!-- Legs under dress -->
+    <line x1="145" y1="220" x2="140" y2="275" stroke="#1A0D18" stroke-width="10"/>
+    <line x1="175" y1="220" x2="180" y2="270" stroke="#1A0D18" stroke-width="10"/>
+    <!-- Arm holding hand -->
+    <path d="M140 100 Q 128 130 122 150" stroke="#1A0D18" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+    <!-- Clasped Hands -->
+    <circle cx="124" cy="150" r="9"/>
+
+    <!-- Reflections on Wet Sand -->
+    <g opacity="0.3" transform="scale(1, -0.6) translate(0, -600)">
+      <ellipse cx="65" cy="180" rx="35" ry="120"/>
+      <ellipse cx="155" cy="180" rx="45" ry="110"/>
+    </g>
+  </g>
+
+  <!-- Distant Birds in Sky -->
+  <path d="M220 320 Q 235 305 250 320 Q 265 305 280 320" stroke="#4A253E" stroke-width="3" fill="none"/>
+  <path d="M280 350 Q 292 338 304 350 Q 316 338 328 350" stroke="#4A253E" stroke-width="2.5" fill="none"/>
+</svg>

@@ -1,0 +1,17 @@
+# Environment variables — NEVER commit these
+.env
+.env.local
+
+# Node
+node_modules/
+
+# Data (user-generated, stays local)
+data/creations.json
+data/people.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
