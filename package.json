@@ -10,7 +10,12 @@
     "preview": "vite preview",
     "test": "vitest run",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postinstall": "node scripts/patch-tanstack.cjs"
+  },
+  "imports": {
+    "#tanstack-router-entry": "./src/router.tsx",
+    "#tanstack-start-entry": "./src/start.ts"
   },
   "overrides": {
     "rolldown": "1.2.1",
