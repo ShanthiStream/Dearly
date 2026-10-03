@@ -1,17 +1,35 @@
-# Environment variables — NEVER commit these
-.env
-.env.local
-
-# Node
-node_modules/
-
-# Data (user-generated, stays local)
-data/creations.json
-data/people.json
-
-# OS
-.DS_Store
-Thumbs.db
-
 # Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+.env
+.env.*
+.remember/
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
