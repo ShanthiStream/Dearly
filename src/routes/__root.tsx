@@ -18,6 +18,7 @@ import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { MobileNav } from "@/components/layout/MobileNav";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from "@vercel/analytics/react";
 
 function NotFoundComponent() {
   return (
@@ -155,6 +156,7 @@ function RootComponent() {
           </>
         )}
         <Toaster />
+        <Analytics />
       </CreationStoreProvider>
       </I18nProvider>
     </QueryClientProvider>
